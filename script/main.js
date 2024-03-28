@@ -11,31 +11,32 @@ prev.addEventListener('click', function(){
     document.querySelector('.slide').prepend(items[items.length - 1]) // here the length of items = 6
 })
 
-
-function validate() {
-    var username = document.getElementById("username").value; // Mengambil nilai dari input username
-    var password = document.getElementById("password").value; // Mengambil nilai dari input password
-
-    // Memeriksa apakah input username atau password kosong
-    if (username === "" || password === "") {
-        alert("Silakan isi username dan password terlebih dahulu!"); // Menampilkan pesan jika input kosong
-    } else {
-        alert("Login berhasil!"); // Menampilkan pesan jika login berhasil
-    }
-}
-
 function redirectToWebsite(url) {
     window.open(url, '_blank');
 }
 
-function validate() {
-    var username = document.getElementById("username").value; // Mengambil nilai dari input username
-    var password = document.getElementById("password").value; // Mengambil nilai dari input password
+function sweetAlert() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-    // Memeriksa apakah input username atau password kosong
-    if (username === "" || password === "") {
-        alert("Silakan isi username dan password terlebih dahulu!"); // Menampilkan pesan jika input kosong
+    // Cek apakah username dan password sesuai dengan yang diinginkan
+    if (username === "" && password === "") {
+        Swal.fire({
+            icon: 'error',
+            title: 'Login failed',
+            text: 'Silakan isi username dan password terlebih dahulu!',
+            position: "center"
+        });
     } else {
-        alert("Login berhasil!"); // Menampilkan pesan jika login berhasil
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Login successful!",
+            showConfirmButton: false,
+            timer: 1500
+        }).then((result) => {
+            // Redirect to the next page after the alert
+            window.open("index.html", "_blank");
+        });
     }
 }
