@@ -88,6 +88,7 @@ body{
     animation: animate 1s ease-in-out 1 forwards; /* Menggunakan animasi "animate" selama 1 detik dengan efek ease-in-out, dimulai setelah 1 detik, dan berjalan sekali dengan hasil akhir yang diterapkan */
     color: #ffffff; /* Mengatur warna teks */
     padding-left: 20px; /* Memberikan padding kiri sebesar 20px */
+    margin-top: 10px;
 }
 
 .content .des {
