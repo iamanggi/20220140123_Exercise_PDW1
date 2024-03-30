@@ -42,7 +42,7 @@ function sweetAlert() {
             timer: 1500
         }).then((result) => {
             // Redirect ke halaman berikutnya setelah alert ditutup
-            window.open("index.html", "_blank");
+            window.open("halaman.html", "_blank");
         });
     }
 }
