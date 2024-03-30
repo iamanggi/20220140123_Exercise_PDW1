@@ -1,7 +1,6 @@
-Website yang saya buat ini menampilkan informasi mengenai beberapa gunung, 
-seperti gunung merapi, prau, kerinci, sindoro, bromo dan gunung gede.
+Website "Explora Gunung" adalah situs yang menyediakan informasi tentang beberapa gunung, seperti Gunung Merapi, Prau, Kerinci, Sindoro, Bromo, dan Gunung Gede, termasuk ketinggian, keindahan, letaknya, dan tautan Instagram dari masing-masing gunung yang dapat diakses dengan menekan tombol "See More".
 
-berikut merupakan halaman yang saya buat:
+Berikut adalah halaman yang saya buat:
 
 ![Screenshot 2024-03-30 084141](https://github.com/iamanggi/Exercise_PDW1/assets/120255389/7047fd78-2bdf-4a40-8bd1-54d38e3d46f1)
 
