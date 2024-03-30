@@ -1,7 +1,7 @@
 
 # Explora Gunung
 
-Website "Explora Gunung" adalah situs yang menyediakan informasi tentang beberapa gunung, seperti Gunung Merapi, Prau, Kerinci, Sindoro, Bromo, dan Gunung Gede, termasuk ketinggian, keindahan, letaknya, dan tautan Instagram dari masing-masing gunung yang dapat diakses dengan menekan tombol "See More".
+Website "Explora Gunung" adalah website yang menyediakan informasi tentang beberapa gunung, seperti Gunung Merapi, Prau, Kerinci, Sindoro, Bromo, dan Gunung Gede, termasuk ketinggian, keindahan, letaknya, dan tautan Instagram dari masing-masing gunung yang dapat diakses dengan menekan tombol "See More".
 
 
 ## GitHub Pages
