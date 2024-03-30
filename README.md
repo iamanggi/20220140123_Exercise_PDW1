@@ -1,4 +1,7 @@
-Website yang saya buat ini menampilkan informasi mengenai beberapa gunung, seperti gunung merapi, prau, kerinci, sindoro, bromo dan gunung gede.
+Website yang saya buat ini menampilkan informasi mengenai beberapa gunung, 
+seperti gunung merapi, prau, kerinci, sindoro, bromo dan gunung gede.
+
+berikut merupakan halaman yang saya buat:
 
 ![Screenshot 2024-03-30 084141](https://github.com/iamanggi/Exercise_PDW1/assets/120255389/7047fd78-2bdf-4a40-8bd1-54d38e3d46f1)
 
